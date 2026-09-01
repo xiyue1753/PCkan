@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Secrets / local config (never commit)
+.deepseek_api_key
+local_secrets.py
+.env
+
+# Model checkpoints / training artifacts
+model/
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+*.jsonl
+llm_logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+_tmp_*.py
+*_out.txt
