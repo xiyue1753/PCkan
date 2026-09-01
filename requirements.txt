@@ -1,0 +1,11 @@
+# PC-KAN reproduction dependencies
+# A GPU (CUDA) is strongly recommended for reproducing the main experiments.
+torch>=2.0.0
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+shap>=0.44
+# LLM-driven tuning uses the DeepSeek API
+requests>=2.28
