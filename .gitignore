@@ -20,8 +20,11 @@ model/
 
 # Logs
 *.log
-*.jsonl
+# LLM interaction records committed under llm_interactions/ are kept; other
+# jsonl under llm_logs/ (regenerated when scripts run) stay ignored.
 llm_logs/
+!llm_interactions/
+!llm_interactions/**/*.jsonl
 
 # Jupyter
 .ipynb_checkpoints/

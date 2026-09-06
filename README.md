@@ -94,7 +94,26 @@ python code/kanconv/kanconv_fig_intro_channels.py
 - **DKASC** (Alice Springs) photovoltaic and meteorological data:
   https://dkasolarcentre.com.au/.
 
-The cleaned 15-min processed data used by the experiments are included under `data/`.
+The cleaned 15-min processed data used by the experiments are included under
+`data/`. See [`data/README.md`](data/README.md) for the exact mapping of each
+paper figure/table to its data files and generating scripts, including the
+LLM e2 curve files (`llm_e2_small_*`), the cold-start scale files
+(`llm_hp_scale_212.csv`, `llm_scale_effect_213.csv`), and the DKASC-11
+prediction caches used by Figure 6.
+
+## LLM interaction records
+
+The full request/response traces of the LLM-driven joint search are committed
+under [`llm_interactions/`](llm_interactions/):
+
+- `agent_ctx_t0.1.jsonl` — main joint search with full context at temperature 0.1
+  (DKASC-212 / DKASC-213).
+- `agent_ctx_t0.3/0.5/0.9.jsonl` — temperature-sensitivity scan on DKASC-212.
+- `agent_noctx_t0.1.jsonl` — context-ablation runs (no-context variant).
+
+Each line is one JSON record of the form `{ts, kind: "request"|"response", ...}`.
+API keys are never logged. If you re-run the LLM scripts, fresh traces are
+written to `llm_logs/` (git-ignored) so the committed records stay untouched.
 
 ## Notes
 
