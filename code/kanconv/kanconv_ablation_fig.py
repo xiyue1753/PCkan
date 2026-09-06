@@ -7,7 +7,7 @@
     removed from the full KANConv_M5 (relative to M5's mean MSE), 10 sites.
 
 Data sources (10 seeds each):
-  HKUST Zone_J1/UG3/SQ2/Zone_D: kanconv_4sig_hkust.csv (FC/M5) + supplement
+  HKUST Zone_J1/UG3/SQ2/Zone_D: kanconv_4sig_hkust.csv
   HKUST SQ1: kanconv_8site_design.csv ; DKASC 5: kanconv_8site_design.csv
   NoLSTM: s_data/cleaned/ablation/ablation_C8.csv
 
@@ -30,8 +30,6 @@ warnings.filterwarnings('ignore')
 FIG = 's_data/cleaned/figs'
 os.makedirs(FIG, exist_ok=True)
 
-SCREEN = 's_data/cleaned/kanconv_hkust_screen.csv'
-SUPP = 's_data/cleaned/kanconv_hkust_supplement.csv'
 A4 = 's_data/cleaned/kanconv_4sig_hkust.csv'
 D8 = 's_data/cleaned/kanconv_8site_design.csv'
 NL = 's_data/cleaned/ablation/ablation_C8.csv'
