@@ -1,0 +1,15 @@
+site,group,space,trial,objective,test_mse_median,hash,learning_rate,hidden_dim,num_layers,out_channels,dropout,use_mixup,use_mixup_phys,use_mixup_temporal,use_jitter,sigma_mixup,sigma_phys,sigma_temporal,sigma_jitter,augmentation_factor
+213,e_manual_aug,small,1,0.06236818805336952,0.10164256393909454,3d37eecb0a4a067f,0.01,64,2,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,2,0.07884734123945236,0.10254008322954178,76fe27e9563cd392,0.003,64,2,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,3,0.07219292223453522,0.09787020087242126,e8ad6c44c29ace7c,0.01,96,2,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,4,0.06426703929901123,0.09467748552560806,d5b3b935216053ec,0.01,64,2,96,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,5,0.06571858376264572,0.10395696759223938,07a0afaa2092d76e,0.01,64,2,48,0.1,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,6,0.06017782539129257,0.09108055382966995,1d2c35de54b612d2,0.01,64,1,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,7,0.09268422424793243,0.11936314404010773,d57b60ba423440cb,0.01,64,3,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,8,0.06017782539129257,0.09108055382966995,e4bff5771562b1a7,0.01,64,1,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,2.0
+213,e_manual_aug,small,9,0.06007751449942589,0.09289992600679398,485490afd23c8602,0.01,64,1,48,0.2,True,False,False,False,0.3,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,10,0.057753872126340866,0.08764847368001938,cf49a511091d7199,0.01,64,1,48,0.2,True,False,False,False,0.5,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,11,0.06017782539129257,0.09108055382966995,1d2c35de54b612d2,0.01,64,1,48,0.2,True,False,False,False,0.2,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,12,0.06019749119877815,0.0896616205573082,087a6abdbab0883e,0.01,64,1,48,0.2,True,True,False,False,0.5,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,13,0.05624916031956673,0.08699703216552734,6980467bc2534632,0.01,64,1,48,0.2,True,False,True,False,0.5,0.2,0.2,0.05,1.5
+213,e_manual_aug,small,14,0.055897172540426254,0.08663484454154968,420ca0fd1c352531,0.01,64,1,48,0.2,True,False,True,True,0.5,0.2,0.2,0.05,1.5

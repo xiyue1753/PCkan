@@ -1,0 +1,11 @@
+site,group,space,trial,objective,test_mse_median,hash,learning_rate,hidden_dim,num_layers,out_channels,dropout,use_mixup,use_mixup_phys,use_mixup_temporal,use_jitter,sigma_mixup,sigma_phys,sigma_temporal,sigma_jitter,augmentation_factor
+213,g_llm_noctx,small,1,0.07523404806852341,0.09923466295003891,335f70ec9437257b,0.001,128,2,64,0.2,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,2,0.07746390998363495,0.11789175868034363,cd0c4380904857a6,0.01,96,3,48,0.3,True,True,False,True,0.2,0.2,0.1,0.2,2.5
+213,g_llm_noctx,small,3,0.0669873058795929,0.0985734835267067,d1d754ee34a7ebe6,0.003,112,2,64,0.25,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,4,0.06940282881259918,0.0948636457324028,9ab2f5ac6826061a,0.002,128,2,64,0.2,True,False,False,True,0.1,0.1,0.1,0.1,2.2
+213,g_llm_noctx,small,5,0.06505987048149109,0.09325560927391052,28617586a5e135cd,0.003,128,2,64,0.25,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,6,0.06238798424601555,0.09644690901041031,d766712e764446c5,0.003,144,2,64,0.25,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,7,0.059676945209503174,0.09018491208553314,674f542e1b8b49f3,0.003,160,2,64,0.25,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,8,0.06401433795690536,0.08720561116933823,ae3238123eadc140,0.003,176,2,64,0.25,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,9,0.06290275603532791,0.08619555830955505,83e89c7cf9aafa18,0.003,176,2,64,0.2,True,False,False,True,0.1,0.1,0.1,0.1,2.0
+213,g_llm_noctx,small,10,0.059414830058813095,0.09217946976423264,bacb2a77a76c7b09,0.003,192,2,64,0.25,True,False,False,True,0.1,0.1,0.1,0.1,2.0
